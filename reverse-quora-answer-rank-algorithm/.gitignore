@@ -1,0 +1,18 @@
+
+# Created by https://www.gitignore.io/api/jupyternotebook
+
+### JupyterNotebook ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__/*
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+#
+
+
+data/questions/
+data/users/
+conf.yaml
+
+# End of https://www.gitignore.io/api/jupyternotebook
